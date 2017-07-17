@@ -11,6 +11,8 @@
   "author": "Mason Lawlor",
   "license": "ISC",
   "devDependencies": {
+    "animate.css": "^3.5.2",
+    "babel-core": "^6.7.2",
     "babel-core": "^6.7.2",
     "babel-eslint": "^6.1.0",
     "babel-loader": "^6.2.4",

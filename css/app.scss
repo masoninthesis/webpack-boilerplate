@@ -1,17 +1,22 @@
+// 3rd Party
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/font-awesome/css/font-awesome.min.css";
-// Uncomment bootstrap.min.css if you don't plan on extending your SCSS into Bootstrap's existing SCSS functions, and comment out "../scss/bootstrap"
-// @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/animate.css/animate.min.css";
+@import "../node_modules/material-design-icons/iconfont/material-icons.css";
+// Choose between FontAwesome or Google's Material Icons
+// @import "../node_modules/font-awesome/css/font-awesome.min.css";
+
 
 // Global
 @import "common/variables";
 @import "common/mixins";
 @import "common/global";
 
+// Components
 @import "components/buttons";
 @import "components/forms";
 @import "components/typography";
 
+// Layouts
 @import "layouts/header";
 @import "layouts/hero";
 @import "layouts/footer";
