@@ -1,0 +1,18 @@
+.site-footer {
+  background-color: $brand-primary;
+  color: white;
+  a {
+    color: #d2d1d1;
+    &:hover, &:focus {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .footer-copyright {
+    background-color: $primary-dark;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+}
