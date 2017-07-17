@@ -22,6 +22,7 @@
     "file-loader": "^0.8.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
+    "material-design-icons": "^3.0.1",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.10.1",
     "sass-loader": "^3.2.0",

@@ -4,11 +4,12 @@
 // @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // Global
-@import "variables";
-@import "mixins";
+@import "common/variables";
+@import "common/mixins";
+@import "common/global";
 
-@import "global";
-@import "modals";
+@import "components/buttons";
+@import "components/forms";
 
-
-// Pages / Sections
+@import "layouts/modals";
+@import "layouts/hero";
